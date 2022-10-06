@@ -1,2 +1,2 @@
 #!/bin/bash
-find hello -user guillaume | xargs chwon betty
+chown --from=guillaume -R betty hello
